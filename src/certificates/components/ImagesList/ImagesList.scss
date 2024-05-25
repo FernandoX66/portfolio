@@ -1,0 +1,21 @@
+.images-list {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  overflow-x: auto;
+  padding-bottom: 5px;
+
+  img {
+    border-radius: 10px;
+    padding: 4px;
+    width: 150px;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &.active {
+      border: 3px solid #4b76ec;
+    }
+  }
+}

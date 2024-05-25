@@ -1,0 +1,39 @@
+header {
+  height: 67px;
+  display: flex;
+  align-items: center;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+      text-decoration: none;
+      font-size: 1.9rem;
+      color: white;
+
+      span {
+        color: #2f60e8;
+      }
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+
+      li {
+        a {
+          color: rgb(227, 227, 227);
+          font-size: 17px;
+
+          &:hover {
+            cursor: pointer;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}

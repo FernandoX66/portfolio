@@ -1,0 +1,49 @@
+footer {
+  background-color: rgb(13, 21, 52);
+  margin-top: 70px;
+
+  .footer {
+    padding: 40px 0;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    > * {
+      flex: 1;
+    }
+
+    h2 {
+      margin-bottom: 15px;
+    }
+
+    .personal-information {
+      font-size: 17px;
+
+      h2 {
+        margin-top: 15px;
+      }
+
+      p {
+        margin-bottom: 10px;
+
+        a {
+          color: inherit;
+        }
+      }
+    }
+
+    .badges {
+      img {
+        width: 100%;
+        max-width: 160px;
+      }
+    }
+  }
+}

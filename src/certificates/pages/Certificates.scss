@@ -1,0 +1,22 @@
+.main-content {
+  padding-top: 30px;
+  position: relative;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .blur {
+    position: absolute;
+    right: 0;
+    box-shadow: 0 0 1000px 55px #4474f7;
+    z-index: -100;
+    top: 50%;
+
+    &:first-of-type {
+      top: 100px;
+      right: unset;
+    }
+  }
+}
